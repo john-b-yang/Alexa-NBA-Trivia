@@ -206,6 +206,116 @@ var questions = [
         ]
     },
     {
+        "Of the two Splash Brothers, who has a better career three point percentage?": [
+            "Stephen Curry",
+            "Klay Thompson"
+        ]
+    },
+    {
+        "Who was the winner of the 2016 NBA Slam Dunk Contest?": [
+            "Zach Lavine",
+            "Aaron Gordon",
+            "Giannis Antetoukounmpo",
+            "Andre Drummond"
+        ]
+    },
+    {
+        "Of the following players, who has won an NCAA college basketball title and an Olympic Medal?": [
+            "Magic Johnson",
+            "Kevin Durant",
+            "Carmelo Anthony",
+            "Larry Bird"
+        ]
+    },
+    {
+        "In the 2010 Cleveland versus Magic Eastern Comference Finals, in which game did Lebron James score a game winning buzzer beater?": [
+            "Game 2",
+            "Game 3",
+            "Game 4",
+            "Game 1"
+        ]
+    },
+    {
+        "First with the Timberwolves, then the Celtics, this power forward was one of the greatest trash talkers and post scoreres in the game": [
+            "Kevin Garnett",
+            "Robert Parish",
+            "Kevin Love",
+            "Scottie Pippen"
+        ]
+    },
+    {
+        "Often hailed as the greatest one two punch, Kobe Bryant and which NBA player won multiple titles together in the early two thousands?": [
+            "Shaquille O'Neal",
+            "Pau Gasol",
+            "Derek Fisher",
+            "Andrew Bynum"
+        ]
+    },
+    {
+        "Malace in the Palace, Panda Friend, and Metta World Peace. Who was this swingman who played for the Pacers and Rockets before going on to win an NBA title with the Lakers?": [
+            "Ron Artest",
+            "Trevor Ariza",
+            "Shannon Brown",
+            "Javale McGee"
+        ]
+    },
+    {
+        "Malace in the Palace occurred between the Detroit Pistons and which other team?": [
+            "Indiana Pacers",
+            "Portland Trail Blazers",
+            "Charlotte Hornets",
+            "Phoenix Suns"
+        ]
+    },
+    {
+        "This Fremont State product went on to win the NBA Most Improved Player Award and led his team to the Eastern Conference Finals in 2013. Who is he?": [
+            "Paul George",
+            "Kemba Walker",
+            "John Wall",
+            "Jeremy Lin"
+        ]
+    },
+    {
+        "Thirteen points in thirty three seconds. Who shocked the Spurs and stole the game in spectacular fashion during this 2007 regular season game?": [
+            "Tracy McGrady",
+            "Kobe Bryant",
+            "Vince Carter",
+            "Steve Nash"
+        ]
+    },
+    {
+        "In 2011, comminssioner David Stern blocked a trade between Pau Gasol and which player that prevented the Los Angeles Lakers from forming a super team?": [
+            "Chris Paul",
+            "Chris Bosh",
+            "Dwight Howard",
+            "Demarcus Cousins"
+        ]
+    },
+    {
+        "During the 2017 Regular Season, Stephen Curry set the record for most three pointers made in one game with an astounding thirteen from beyond the arc. Which player comes in second for most threes in a game?": [
+            "Dontyell Marshall",
+            "Ray Allen",
+            "Jalen Rose",
+            "Paul Pierce"
+        ]
+    },
+    {
+        "Which former Toronto Raptor will block you on Twitter if you post 81 on his feed, in reference to the 81 points Kobe Bryant scored on him?": [
+            "Jalen Rose",
+            "Chris Bosh",
+            "Vince Carter",
+            "Kyle Lowry"
+        ]
+    },
+    {
+        "The 2008 Boston Celtics, one of the greatest NBA super teams, featured a Big Four of Paul Pierce, Kevin Garnett, Ray Allen, and which other player?": [
+            "Rajon Rondo",
+            "Isaiah Thomas",
+            "Delonte West",
+            "Avery Bradley"
+        ]
+    },
+    {
         "Who is the all time leader in points scored?": [
             "Kareem Abdul-Jabbar",
             "Michael Jordan",
