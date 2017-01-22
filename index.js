@@ -602,7 +602,7 @@ function handleAnswerRequest(intent, session, callback) {
                 repromptText += (i+1).toString() + ". " + roundAnswers[i] + ". "
             }
             speechOutput += userGaveUp ? "" : "That answer is ";
-            speechOutput += speechOutputAnalysis + "Your score is " + currentScore.toString() + ". " + repromptText;
+            speechOutput += speechOutputAnalysis + "Your score is " + currentScore.toString() + " points. " + repromptText;
 
             sessionAttributes = {
                 "speechOutput": repromptText,
