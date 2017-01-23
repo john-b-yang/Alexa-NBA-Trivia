@@ -385,6 +385,69 @@ var questions = [
             "Tamika Catchings",
             "Elena Della Donne"
         }
+    }, {
+        "What team was Kawhi Leonard originally drafted by before being traded immediately to the Spurs?": [
+            "Indiana Pacers",
+            "Milwaukee Bucks",
+            "Brooklyn Nets",
+            "Minnesota Timberwolves"
+        ]
+    }, {
+        "Which player retired abruptly on November 7, 1991": [
+            "Magic Johnson",
+            "Dominique Wilkins",
+            "Clyde Drexler",
+            "Larry Bird"
+        ]
+    }, {
+        "Who was Dwight Howard's Kryptonite and winner of the 2009 NBA Dunk Contest?": [
+            "Nate Robinson",
+            "Zach Lavine",
+            "Blake Griffin",
+            "Terrence Ross"
+        ]
+    }, {
+        "Which team was Pau Gasol originally drafted by during the 2001 NBA Draft?": [
+            "Atlanta Hawks",
+            "Memphis Grizzlies",
+            "Los Angeles Lakers",
+            "San Antonio Spurs"
+        ]
+    }, {
+        "The starting lineup for the 1996 Chicago Bulls included Scottie Pippen, Michael Jordan, Dennis Rodman, Toni Kukoc and which other player?": [
+            "Robert Parish",
+            "Horace Grant",
+            "Steve Kerr",
+            "Ron Harper"
+        ]
+    }, {
+        "The starting lineup for the 2015 Golden State Warriors included Stephen Curry, Klay Thompson, Harrison Barnes, Draymond Green, and which other player?": [
+            "Andrew Bogut",
+            "Andre Iguodala",
+            "David Lee",
+            "Shaun Livingston"
+        ]
+    }, {
+        "In the 2015 NBA Championship series featuring the Cleveland Cavaliers and Golden State Warriors, who was awarded the NBA Finals MVP Award?": [
+            "Andre Iguodala",
+            "Stephen Curry",
+            "Lebron James",
+            "Klay Thompson"
+        ]
+    }, {
+        "How many points did Kobe Bryant score in his first NBA game?": [
+            "0",
+            "15",
+            "20",
+            "6"
+        ]
+    }, {
+        "Who is the only basketball coach to have won both NCAA and NBA Championships?": [
+            "Larry Brown",
+            "Red Auerbach",
+            "Adolph Rupp",
+            "Pat Riley"
+        ]
     }
 ];
 
