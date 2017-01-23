@@ -322,6 +322,69 @@ var questions = [
             "Kobe Bryant",
             "Lebron James"
         ]
+    }, {
+        "What team won the very first NBA game?": [
+            "New York Knicks",
+            "Philadelphia Warriors",
+            "Chicago Stags",
+            "Toronoto Huskies"
+        ]
+    }, {
+        "Which NBA player scored 100 points on March 2, 1962?": [
+            "Wilt Chamberlain",
+            "Oscar Robertson",
+            "Elgin Baylor",
+            "Kareem Abdul-Jabbar"
+        ]
+    }, {
+        "Who was the first player in NBA history to be selected MVP by a unanimous vote?": [
+            "Stephen Curry",
+            "Magic Johnson",
+            "Michael Jordan",
+            "Steve Nash"
+        ]
+    }, {
+        "Who is the NBA leader in all time assists?": [
+            "John Stockton",
+            "Jason Kidd",
+            "Gary Payton",
+            "Chris Paul"
+        ]
+    }, {
+        "What kind of shot did Joe Fulks create to score 63 points in one game in 1949": [
+            "Jump Shot",
+            "Fade Away",
+            "Turn Around",
+            "Hook Shot"
+        ]
+    }, {
+        "The unguardable shot, also known as the sky hook, was architectured by this UCLA graduate and six time NBA champion": [
+            "Kareem Abdul Jabbar",
+            "Shaquille O'Neal",
+            "Michael Jordan",
+            "Bill Russell"
+        ]
+    }, {
+        "What team owns the longest winning streak in NBA history?": {
+            "Los Angeles Lakers",
+            "Miami Heat",
+            "Boston Celtics",
+            "Golden State Warriors"
+        }
+    }, {
+        "Who is the all time leading scorer in men's college basketball?": {
+            "Pete Maravich",
+            "Larry Bird",
+            "Kevin Durant",
+            "John Wall"
+        }
+    }, {
+        "Who was the first woman to dunk in an WNBA playoff game?": {
+            "Brittney Griner",
+            "Lisa Leslie",
+            "Tamika Catchings",
+            "Elena Della Donne"
+        }
     }
 ];
 
