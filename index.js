@@ -448,6 +448,55 @@ var questions = [
             "Adolph Rupp",
             "Pat Riley"
         ]
+    }, {
+        "Where were the Detroit Pistons originally based?": [
+            "Fort Wayne, Indiana",
+            "Lansing, Michigan",
+            "Austin, Texas",
+            "Akron, Ohio"
+        ]
+    }, {
+        "Which NBA player was nicknamed Chocolate Thunder?": [
+            "Dominique Wilkins",
+            "Shaquille O'Neal",
+            "Shawn Kemp",
+            "Aaron Gordon"
+        ]
+    }, {
+        "This Number 1 Draft Pick selected by the Wizards was later embarrassed by Steven A. Smith after he was traded away from the Lakers for Pau Gasol": [
+            "Kwame Brown",
+            "Anthony Bennett",
+            "Lamar Odom",
+            "Carmelo Anthony"
+        ]
+    }, {
+        "Of the following, all except for one player was selected for the NBA All Star game more than twelve times": [
+            "Allen Iverson",
+            "Moses Malone",
+            "Karl Malone",
+            "Tim Duncan"
+        ]
+    }, {
+        "Who holds the record for most blocked shots?": [
+            "Hakeem Olajuwon",
+            "Dikembe Mutumbo",
+            "David Robinson",
+            "Shaquille O'Neal"
+        ]
+    }, {
+        "Who was the only player to have been awarded MVP in both the NBA and ABA?": [
+            "Julius Erving",
+            "Kareem Abdul Jabbar",
+            "Bob McAdoo",
+            "Elgin Baylor"
+        ]
+    }, {
+        "Which NBA team won eight consecutive championships from 1959 to 1966?": [
+            "Boston Celtics",
+            "Minneapolis Lakers",
+            "Philedelphia Warriors",
+            "Baltimore Bullets"
+        ]
     }
 ];
 
