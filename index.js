@@ -497,6 +497,27 @@ var questions = [
             "Philedelphia Warriors",
             "Baltimore Bullets"
         ]
+    }, {
+        "The 1966 Texas Western Miners made history by being the first NCAA college basketball team with an all African American lineup to win an NCAA Championship. Which team did they beat in the championship game?": [
+            "Kentucky Wildcats",
+            "Iowa Hawkeyes",
+            "Duke Blue Devils",
+            "UCLA Bruins"
+        ]
+    }, {
+        "The Answer led the Philadelphia Sixers single handedly to the 2001 NBA Finals, but eventually fell to the Lakers in the championship series in five games. Who is this player?": [
+            "Allen Iverson",
+            "Vince Carter",
+            "Steve Nash",
+            "Kobe Bryant"
+        ]
+    }, {
+        "In the 2000 Olympics during a game between USA and France, this Toronto Raptors player jumped over an opponent before dunking the ball. Who is he?": [
+            "Vince Carter",
+            "Tracy McGrady",
+            "Kevin Garnett",
+            "Gary Payton"
+        ]
     }
 ];
 
