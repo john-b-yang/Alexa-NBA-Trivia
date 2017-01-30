@@ -542,6 +542,13 @@ var questions = [{
         "Lebron James",
         "Dirk Nowitzki"
     ]
+}, {
+    "Who is the tallest player in NBA history?": [
+        "Manute Bol"
+        "Yao Ming"
+        "Kareem Abdul Jabbar",
+        "Shawn Bradley"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
