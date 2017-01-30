@@ -535,6 +535,13 @@ var questions = [{
         "Los Angeles Lakers",
         "Boston Celtics"
     ]
+}, {
+    "Who is the highest paid NBA player in league history?": [
+        "Kevin Garnett",
+        "Michael Jordan",
+        "Lebron James",
+        "Dirk Nowitzki"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
