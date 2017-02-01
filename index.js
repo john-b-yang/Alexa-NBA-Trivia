@@ -556,6 +556,13 @@ var questions = [{
         "Jason Kidd",
         "Allen Iverson"
     ]
+}, {
+    "Known fondly as the Big O, this Milwaukee Buck is so far the only player to average a triple double for the season in NBA history": [
+        "Oscar Robertson",
+        "Michael Redd",
+        "Ray Allen",
+        "Otis Thorpe"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
