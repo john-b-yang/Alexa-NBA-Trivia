@@ -549,6 +549,13 @@ var questions = [{
         "Kareem Abdul Jabbar",
         "Shawn Bradley"
     ]
+}, {
+    "An acrobatic, human highlight film, which point guard was the first to be nicknamed White Chocolate?": [
+        "Jason Williams",
+        "Steve Nash",
+        "Jason Kidd",
+        "Allen Iverson"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
