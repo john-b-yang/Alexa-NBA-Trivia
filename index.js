@@ -563,6 +563,13 @@ var questions = [{
         "Ray Allen",
         "Otis Thorpe"
     ]
+}, {
+    "The 2014-2015 Atlanta Hawks were one of nine teams in NBA History to have an all time high 4 team members selected to the NBA All Star game. Three of them were Al Horford, Paul Millsap, and Kyle Korver. Who was the fourth?": [
+        "Jeff Teague",
+        "Dwight Howard",
+        "DeMarre Carroll",
+        "Joe Johnson"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
