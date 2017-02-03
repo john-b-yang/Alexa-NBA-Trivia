@@ -114,7 +114,7 @@ var questions = [{
         "40 minutes",
         "48 minutes",
         "60 minutes",
-        "56 minutes",
+        "56 minutes"
     ]
 }, {
     "How long is the shot clock for NBA teams?": [
@@ -326,26 +326,26 @@ var questions = [{
         "Bill Russell"
     ]
 }, {
-    "What team owns the longest winning streak in NBA history?": {
+    "What team owns the longest winning streak in NBA history?": [
         "Los Angeles Lakers",
         "Miami Heat",
         "Boston Celtics",
         "Golden State Warriors"
-    }
+    ]
 }, {
-    "Who is the all time leading scorer in men's college basketball?": {
+    "Who is the all time leading scorer in men's college basketball?": [
         "Pete Maravich",
         "Larry Bird",
         "Kevin Durant",
         "John Wall"
-    }
+    ]
 }, {
-    "Who was the first woman to dunk in an WNBA playoff game?": {
+    "Who was the first woman to dunk in an WNBA playoff game?": [
         "Brittney Griner",
         "Lisa Leslie",
         "Tamika Catchings",
         "Elena Della Donne"
-    }
+    ]
 }, {
     "What team was Kawhi Leonard originally drafted by before being traded immediately to the Spurs?": [
         "Indiana Pacers",
@@ -480,21 +480,21 @@ var questions = [{
         "Gary Payton"
     ]
 }, {
-    "In 1965, this St. Louis Hawks player became the inaugural member of the 20000 career points club. What was his name?" [
+    "In 1965, this St. Louis Hawks player became the inaugural member of the 20000 career points club. What was his name?": [
         "Bob Petit",
         "Cliff Hagan",
         "Bob McAdoo",
         "Jerry West"
     ]
 }, {
-    "What was Kareem Abdul Jabbar's original name?" [
+    "What was Kareem Abdul Jabbar's original name?": [
         "Lewis Alcindor",
         "Devin Mcdonald",
         "Larry Whitehouse",
         "Robert Gordon"
     ]
 }, {
-    "Which team did Wilt Chamberlain score his record 100 points against?" [
+    "Which team did Wilt Chamberlain score his record 100 points against?": [
         "New York Knicks",
         "Baltimore Bullets",
         "Cleveland Cavaliers",
@@ -544,8 +544,8 @@ var questions = [{
     ]
 }, {
     "Who is the tallest player in NBA history?": [
-        "Manute Bol"
-        "Yao Ming"
+        "Manute Bol",
+        "Yao Ming",
         "Kareem Abdul Jabbar",
         "Shawn Bradley"
     ]
