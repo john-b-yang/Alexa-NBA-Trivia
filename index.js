@@ -570,6 +570,13 @@ var questions = [{
         "DeMarre Carroll",
         "Joe Johnson"
     ]
+}, {
+    "Derrick Rose won the NBA Rookie of the Year award in 2009. How many years did it take for him to win his first and only MVP award?": [
+        "2",
+        "3",
+        "4",
+        "5"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
