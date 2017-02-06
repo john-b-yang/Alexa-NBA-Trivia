@@ -584,6 +584,13 @@ var questions = [{
         "Larry Bird",
         "Patrick Ewing"
     ]
+}, {
+    "Which team features the most defensive player of the year award winners?": [
+        "Pistons",
+        "Bulls",
+        "Pelicans",
+        "Suns"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
