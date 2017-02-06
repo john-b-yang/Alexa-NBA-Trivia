@@ -577,6 +577,13 @@ var questions = [{
         "4",
         "5"
     ]
+}, {
+    "Which NBA player has won the same number of championships as New England Patriots legend Tom Brady?": [
+        "Kobe Bryant",
+        "Robert Horry",
+        "Larry Bird",
+        "Patrick Ewing"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
