@@ -591,6 +591,20 @@ var questions = [{
         "Pelicans",
         "Suns"
     ]
+}, {
+    "What year was the NBA first founded?": [
+        "nineteen fourty six",
+        "nineteen sixty four",
+        "nineteen seventy",
+        "nineteen thirty five"
+    ]
+}, {
+    "What year did the NBA and ABA merge?": [
+        "nineteen seventy six",
+        "nineteen seventy three",
+        "nineteen seventy five",
+        "nineteen seventy four"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
