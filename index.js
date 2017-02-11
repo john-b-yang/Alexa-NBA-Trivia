@@ -605,6 +605,13 @@ var questions = [{
         "nineteen seventy five",
         "nineteen seventy four"
     ]
+}, {
+    "Golden State Warriors forward Draymond Green, picked in the 2012 NBA Draft, could famously name all the players drafted ahead of him. At what position was he drafted?": [
+        "35",
+        "20",
+        "17",
+        "8"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
