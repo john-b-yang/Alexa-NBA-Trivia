@@ -612,6 +612,13 @@ var questions = [{
         "17",
         "8"
     ]
+}, {
+    "This player won the NBA Championship and NBA Finals MVP award in his rookie year. Who is he?": [
+        "Magic Johnson",
+        "Isaiah Thomas",
+        "Larry Bird",
+        "Hakeem Olajuwon"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
