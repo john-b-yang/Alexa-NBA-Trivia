@@ -619,6 +619,13 @@ var questions = [{
         "Larry Bird",
         "Hakeem Olajuwon"
     ]
+}, {
+    "Who is the only coach in basketball history to have won both an NCAA and NBA Championship?": [
+        "Larry Brown",
+        "John Calipari",
+        "Doc Rivers",
+        "Brad Stevens"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
