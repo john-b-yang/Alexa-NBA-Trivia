@@ -626,6 +626,13 @@ var questions = [{
         "Doc Rivers",
         "Brad Stevens"
     ]
+}, {
+    "Which former Los Angeles Laker and son of NBA Legend Bill Walton is currently the coach of the Los Angeles Lakers?": [
+        "Luke Walton",
+        "Fred Walton",
+        "Jake Walton",
+        "Thomas Walton"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
