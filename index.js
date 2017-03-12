@@ -633,6 +633,13 @@ var questions = [{
         "Jake Walton",
         "Thomas Walton"
     ]
+}, {
+    "Before they were the Memphis Grizzlies, what former city hosted this Tennessee team?": [
+        "Vancouver",
+        "San Antonio",
+        "Baton Rouge",
+        "Boulder"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
