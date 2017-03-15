@@ -640,6 +640,13 @@ var questions = [{
         "Baton Rouge",
         "Boulder"
     ]
+}, {
+    "Who is the only international NBA player in the 30000 point club?": [
+        "Dirk Nowitzki",
+        "Pau Gasol",
+        "Peja Stojakovic",
+        "Yao Ming"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
