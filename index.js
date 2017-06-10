@@ -1,14 +1,5 @@
-/**
- * This sample shows how to create a simple Trivia skill with a multiple choice format. The skill
- * supports 1 player at a time, and does not support games across sessions.
- */
-
 'use strict';
 
-/**
- * When editing your questions pay attention to your punctuation. Make sure you use question marks or periods.
- * Make sure the first answer is the correct one. Set at least 4 answers, any extras will be shuffled in.
- */
 var questions = [{
     "How many championships did Los Angeles Lakers legend Kobe Bryant win?": [
         "5",
@@ -418,7 +409,7 @@ var questions = [{
     ]
 }, {
     "Which NBA player was nicknamed Chocolate Thunder?": [
-        "Dominique Wilkins",
+        "Darryl Dawkins",
         "Shaquille O'Neal",
         "Shawn Kemp",
         "Aaron Gordon"
@@ -557,7 +548,7 @@ var questions = [{
         "Allen Iverson"
     ]
 }, {
-    "Known fondly as the Big O, this Milwaukee Buck is so far the only player to average a triple double for the season in NBA history": [
+    "Known fondly as the Big O, this Milwaukee Buck was formerly the only player to average a triple double for the season in NBA history": [
         "Oscar Robertson",
         "Michael Redd",
         "Ray Allen",
@@ -647,6 +638,97 @@ var questions = [{
         "Peja Stojakovic",
         "Yao Ming"
     ]
+}, {
+    "Lebron James has been to the NBA finals 8 times in total. Which team did he win his first championship against?": [
+        "Oklahoma City Thunder",
+        "San Antonio Spurs",
+        "Golden State Warriors",
+        "Los Angeles Lakers"
+    ]
+}, {
+    "Of the following teams, which has Lebron James lost twice to in the finals?": [
+        "San Antonio Spurs",
+        "Oklahoma City Thunder",
+        "Dallas Mavericks",
+        "Houston Rockets"
+    ]
+}, {
+    "After back to back championships, the Houston Rockets signed which Hall of Fame All Star during the offseason in an attempt to three peat?": [
+        "Charles Barkley",
+        "Dennis Rodman",
+        "Penny Hardaway",
+        "Karl Malone"
+    ]
+}, {
+    "NBA sharpshooting legend Ray Allen's first name is not actually Ray. What is his real first name it?": [
+        "Walter",
+        "Eddie",
+        "Jeremy",
+        "Terrence"
+    ]
+}, {
+    "Who is the shortest player in NBA history?": [
+        "Muggsy Bogues",
+        "Nate Robinson",
+        "Isaiah Thomas",
+        "J J Barea"
+    ]
+}, {
+    "This Spaniard and NBA Champion was actually studying to be a doctor before his professional basketball career. Who is he?": [
+        "Pau Gasol",
+        "Ricky Rubio",
+        "Rudy Fernandez",
+        "Serge Ibaka"
+    ]
+}, {
+    "Who was the first NBA player to be drafted directly out of high school?": [
+        "Reggie Harding",
+        "Moses Malone",
+        "Darryl Dawkins",
+        "Kevin Garnett"
+    ]
+}, {
+    "Dunk Maestro Vince Carter started his career with the Toronto Raptors but was not actually drafted by them. Which team drafted Vinsanity?": [
+        "Golden State Warriors",
+        "Cleveland Cavaliers",
+        "Chicago Bulls",
+        "Seattle Supersonics"
+    ]
+}, {
+    "Who set the record for most assists in a single game at 30 assists?": [
+        "Scott Skiles",
+        "Jason Kidd",
+        "Jason Williams",
+        "Steve Nash"
+    ]
+}, {
+    "Of these following NBA superstars, one of them was not a top ten pick. Which player is it?": [
+        "Kobe Bryant",
+        "Dirk Nowitzki",
+        "Kevin Garnett",
+        "Paul Pierce"
+    ]
+}, {
+    "The greatest margin of victory in NBA history was a 148 to 80 smackdown between the Cleveland Cavaliers and what other team?": [
+        "Miami Heat",
+        "Philadelphia Seventy Sixers",
+        "Charlotte Bobcats",
+        "New Jersey Nets"
+    ]
+}, {
+    "Which player holds the record for most steals in a single playoff game?": [
+        "Allen Iverson",
+        "Kobe Bryant",
+        "Stephen Curry",
+        "Chris Paul"
+    ]
+}, {
+    "Interestingly, every team in the NBA has moved locations except for two teams. Which one is in the following list?": [
+        "New York Knicks",
+        "Memphis Grizzlies",
+        "Los Angeles Lakers",
+        "Toronto Raptors"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
@@ -654,11 +736,6 @@ var questions = [{
 exports.handler = function(event, context) {
     try {
         console.log("event.session.application.applicationId=" + event.session.application.applicationId);
-
-        /**
-         * Uncomment this if statement and populate with your skill's application ID to
-         * prevent someone else from configuring a skill that sends requests to this function.
-         */
 
         if (event.session.application.applicationId !== "amzn1.ask.skill.5f2db6f5-8fe1-4eff-b0de-4c8c2e0248a1") {
             context.fail("Invalid Application ID");
@@ -772,7 +849,7 @@ function onSessionEnded(sessionEndedRequest, session) {
 
 var ANSWER_COUNT = 4;
 var GAME_LENGTH = 5;
-var CARD_TITLE = "Trivia"; // Be sure to change this for your skill.
+var CARD_TITLE = "Basketball Trivia"; // Be sure to change this for your skill.
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},

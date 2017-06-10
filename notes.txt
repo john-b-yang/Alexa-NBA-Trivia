@@ -1,0 +1,4 @@
+Make sure to choose the Amazon Start Session test.
+For Lambda testing, making sure to enter the app ID in the configure test area.
+Otherwise, you may see an 'undefined application' error if the first part isn't
+configured, or you may see an invalid ID if you do not configure the test area.
