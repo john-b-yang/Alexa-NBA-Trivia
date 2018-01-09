@@ -388,10 +388,10 @@ var questions = [{
     ]
 }, {
     "How many points did Kobe Bryant score in his first NBA game?": [
-        "0",
-        "15",
-        "20",
-        "6"
+        "0 points",
+        "15 points",
+        "20 points",
+        "6 points"
     ]
 }, {
     "Who is the only basketball coach to have won both NCAA and NBA Championships?": [
@@ -729,6 +729,48 @@ var questions = [{
         "Los Angeles Lakers",
         "Toronto Raptors"
     ]
+}, {
+    "Before he signed with Oklahoma City, Carmelo Anthony played for the New York Knicks and which other team?": [
+        "Denver Nuggets",
+        "Los Angeles Clippers",
+        "New Orleans Pelicans",
+        "Utah Jazz"
+    ]
+}, {
+    "In Michael Jordan's epic film, Space Jam, the Monstars steal talent from Patrick Ewing, Charles Barkley, Muggsy Bogues, Larry Johnson, and which other player?": [
+        "Shawn Bradley",
+        "Scottie Pippen",
+        "Karl Malone",
+        "Grant Hill"
+    ]
+}, {
+    "Who is this former BYU star, drafted with the tenth pick in 2011 to the Milwaukee Bucks, and is now known as the lonely legend playing shooting guard for the Shanghai Sharks in the CBA?": [
+        "Jimmer Fredette",
+        "Stephon Marbury",
+        "Michael Beasley",
+        "J.R. Smith"
+    ]
+}, {
+    "With the thirty fifth pick in the 2012 draft, the Golden State Warriors select!": [
+        "Draymond Green",
+        "Patrick McCaw",
+        "Klay Thompson",
+        "Jordan Bell"
+    ]
+}, {
+    "A dynamic center for the Sacramento Kings, this player known as Boogie was traded during the 2017 All Star weekend to the New Orleans Pelicans. Who is he?": [
+        "Demarcus Cousins",
+        "Buddy Hield",
+        "Dwight Howard",
+        "Anthony Davis"
+    ]
+}, {
+    "Big Baller Style! Lonzo Ball, the oldest of the three Ball brothers, played at which university before being drafted by the Lakers?": [
+        "University of California, Los Angeles",
+        "University of Kentucky",
+        "Duke University",
+        "University of Southern California"
+    ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
@@ -951,6 +993,7 @@ function handleAnswerRequest(intent, session, callback) {
     var gameInProgress = session.attributes && session.attributes.questions;
     var answerSlotValid = isAnswerSlotValid(intent);
     var userGaveUp = intent.name === "DontKnowIntent";
+    var correctAnswerArray = ["Good job! ", "Nice! ", "Bingo! ", "Another point! ", "Cool beans! ", "What a stunner! "];
 
     if (!gameInProgress) {
         // If the user responded with an answer but there is no game in progress, ask the user
@@ -977,7 +1020,7 @@ function handleAnswerRequest(intent, session, callback) {
 
         if (answerSlotValid && parseInt(intent.slots.Answer.value) == correctAnswerIndex) {
             currentScore++;
-            speechOutputAnalysis = "correct. ";
+            speechOutputAnalysis = "correct. " + correctAnswerArray[Math.floor(Math.random()*correctAnswerArray.length)];
         } else {
             if (!userGaveUp) {
                 speechOutputAnalysis = "wrong. "
