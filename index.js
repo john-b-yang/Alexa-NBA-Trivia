@@ -37,14 +37,6 @@ var questions = [{
         "Tracy McGrady"
     ]
 }, {
-    "Of the following former Thunder players, who is still playing for Oklahoma City?": [
-        "Russell Westbrook",
-        "Kevin Durant",
-        "James Harden",
-        "Reggie Jackson",
-        "Serge Ibaka"
-    ]
-}, {
     "Who is the all time leader in blocks": [
         "Hakeem Olajuwon",
         "Kareem Abdul Jabbar",
@@ -388,10 +380,10 @@ var questions = [{
     ]
 }, {
     "How many points did Kobe Bryant score in his first NBA game?": [
-        "0 points",
-        "15 points",
-        "20 points",
-        "6 points"
+        "zero points",
+        "fifteen points",
+        "twenty points",
+        "six points"
     ]
 }, {
     "Who is the only basketball coach to have won both NCAA and NBA Championships?": [
@@ -639,7 +631,7 @@ var questions = [{
         "Yao Ming"
     ]
 }, {
-    "Lebron James has been to the NBA finals 8 times in total. Which team did he win his first championship against?": [
+    "Lebron James has been to the NBA finals nine times in total. Which team did he win his first championship against?": [
         "Oklahoma City Thunder",
         "San Antonio Spurs",
         "Golden State Warriors",
@@ -730,7 +722,7 @@ var questions = [{
         "Toronto Raptors"
     ]
 }, {
-    "Before he signed with Oklahoma City, Carmelo Anthony played for the New York Knicks and which other team?": [
+    "Before he signed with the Oklahoma City Thunder in 2017, Carmelo Anthony played for the New York Knicks and which other team?": [
         "Denver Nuggets",
         "Los Angeles Clippers",
         "New Orleans Pelicans",
@@ -765,11 +757,95 @@ var questions = [{
         "Anthony Davis"
     ]
 }, {
-    "Big Baller Style! Lonzo Ball, the oldest of the three Ball brothers, played at which university before being drafted by the Lakers?": [
+    "Big Baller Style! Lonzo Ball, the oldest of the three Ball brothers, played at which university before being drafted by the Lakers in 2016?": [
         "University of California, Los Angeles",
         "University of Kentucky",
         "Duke University",
         "University of Southern California"
+    ]
+}, {
+    "In 2016, Demarcus Cousins joined forces with Anthony Davis on the New Orlean Pelicans. The two reunited on the Lakers in 2019, but Cousins took a detour, spending a year with which team for the 2018 season?": [
+        "Golden State Warriors",
+        "Toronto Raptors",
+        "Houston Rockets",
+        "Sacramento Kings"
+    ]
+}, {
+    "The 2019 NBA Awards ceremony winnings were swept by European players. Giannis, with the long last name Alexa can not say properly, won most valuable player. Luka Doncic won rookie of the year. Which European won 2019 Defensive Player of the Year?": [
+        "Rudy Gobert",
+        "Marc Gasol",
+        "Serge Ibaka",
+        "Nikola Jokic"
+  ]
+}, {
+    "In 2019, the Toronto Raptors upset the Golden State Warriors in the NBA Finals. The Raptors were led by forward Kawhi Leonard, who was traded for which Raptors super star a year before?": [
+        "Demar Derozan",
+        "Chris Bosh",
+        "Kyle Lowry",
+        "Serge Ibaka"
+    ]
+}, {
+    "This former general manager for the Philadelphia Seventy Sixers is remembered as being the original architect of the famed rebuilding project, commonly known as The Process. Who was he?": [
+        "Sam Hinkie",
+        "Jerry Colangelo",
+        "Elton Brand",
+        "Bryan Colangelo"
+    ]
+}, {
+    "Which Asian American NBA player was the first to win an NBA championship?": [
+        "Jeremy Lin",
+        "Yao Ming",
+        "Yi Jian Lian",
+        "Wang Zhi Zhi"
+    ]
+}, {
+    "The Knicks versus Hicks rivalry of the late nineteen seventies peaked between 1993 and 2000 when the Knicks and Pacers met six times in the playoffs. Who was the legendary shooter who became known as The Knick Killer during this stretch?": [
+        "Reggie Miller",
+        "Mark Jackson",
+        "Ron Artest",
+        "Chris Mullin"
+    ]
+}, {
+    "Run T M C refers to the two years of high scoring, exciting, Golden State Warriors basketball from 1989 to 1991. The initial T M C refers to the players Chris Mullin, Tim Hardaway, and which third co star?": [
+        "Mitch Richmond",
+        "Mychal Thompson",
+        "Manute Bol",
+        "Mark Price"
+    ]
+}, {
+    "This all star won playoff series with buzzer beaters against the Houston Rockets in Game 6 of the 2014 playoffs and against the Oklahoma City Thunder in Game 5 of the 2019 NBA playoffs. Who is he?": [
+        "Damian Lillard",
+        "Kyrie Irving",
+        "Klay Thompson",
+        "Mike Conley"
+    ]
+}, {
+    "In a 2004 Western Conference playoff game, this Los Angeles Laker player hit a buzzer beater with less than half a second left to win the game against the San Antonio Spurs. Who is he?": [
+        "Derek Fisher",
+        "Kobe Bryant",
+        "Robert Horry",
+        "Gary Payton"
+    ]
+}, {
+    "Patrick Ewing's legacy is associated with the New York Knicks. However, towards the twilight of his career, he also played for the Seattle Supersonics and which other team?": [
+        "Orlando Magic",
+        "Miami Heat",
+        "Charlotte Hornets",
+        "Memphis Grizzlies"
+    ]
+}, {
+    "This Spurs legend has the record for the most total double doubles in NBA history. Who is he?": [
+        "Tim Duncan",
+        "David Robinson",
+        "Moses Malone",
+        "Lamarcus Aldridge"
+    ]
+}, {
+    "In the middle of the 2011 NBA draft, the San Antonio Spurs received the draft rights for the number fifteen pick resulting in Kawhi Leonard by trading away which player?": [
+      "George Hill",
+      "Tony Parker",
+      "Stephen Jackson",
+      "Matt Bonner"
     ]
 }];
 
