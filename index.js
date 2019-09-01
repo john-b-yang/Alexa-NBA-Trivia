@@ -847,6 +847,13 @@ var questions = [{
       "Stephen Jackson",
       "Matt Bonner"
     ]
+}, {
+  "This Utah Jazz was drafted thirteenth in the 1985 NBA Draft, the same year Patrick Ewing was selected first by the New York Knicks. Who is he?": [
+      "Karl Malone",
+      "John Stockton",
+      "Adrian Dantley",
+      "Jeff Hornacek"
+  ]
 }];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
